@@ -1,0 +1,56 @@
+# runtime state
+runtime/
+.debug/
+*.log
+
+# dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+.turbo/
+*.tsbuildinfo
+
+# TypeScript build artefacts (the apps run from src/)
+apps/*/src/**/*.js
+apps/*/src/**/*.d.ts
+apps/*/vite.config.js
+apps/*/postcss.config.js
+apps/*/tailwind.config.js
+packages/*/src/**/*.js
+packages/*/src/**/*.d.ts
+
+# temporary and cached output
+.runtime-diag/
+*.tmp
+*.temp
+.cache/
+.vite/
+coverage/
+.eslintcache
+next-env.d.ts
+out/
+
+# environment and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+infra/secrets/
+partner-cookie.json
+
+# editors and OS
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# test and tooling output
+playwright-report/
+test-results/
+.playwright/
+
+# auth middleware
+.middleware.js
+.clerk/
