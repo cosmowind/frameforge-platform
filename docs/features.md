@@ -56,8 +56,8 @@
 ### WCS v2.0 文档
 
 - [x] wcs-manifest.yaml 中央索引
-- [x] 9 基础 docs (project_status/structure/dev_plan/dev_log/error_book/features/CODING_STANDARDS/workflow/prompt)
-- [x] 3 plan2 新增 docs（data-dictionary / storage-architecture / device-adapters）
+- [x] 8 基础 docs (project_status/structure/dev_plan/dev_log/error_book/features/CODING_STANDARDS/workflow)
+- [x] 3 plan2 新增 docs（data-dictionary / device-adapters）
 - [x] README + .env.example + LICENSE
 
 ### 数据库（Drizzle 0.31）
@@ -139,7 +139,7 @@
 - [ ] COS 资源包预付费
 - [ ] COS 生命周期规则（30/90/180d 自动转层）
 - [ ] 夸克网盘季度备份（rclone）
-- [ ] 性能压测（135TB/月并发）
+- [ ] 性能压测（百 TB/月量级并发）
 - [ ] 备份恢复演练
 
 ## Phase 4（按需）

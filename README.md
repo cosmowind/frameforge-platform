@@ -137,7 +137,6 @@ The ones that matter most:
 | [`docs/dev_log.md`](docs/dev_log.md) | what was built, how it was verified, what went wrong |
 | [`docs/error_book.md`](docs/error_book.md) | post-mortems of past failures |
 | [`docs/data-dictionary.md`](docs/data-dictionary.md) | field-by-field reference for the 15 tables |
-| [`docs/storage-architecture.md`](docs/storage-architecture.md) | the storage tiers |
 | [`docs/device-adapters.md`](docs/device-adapters.md) | how to add a camera family |
 
 A Chinese-language version of the original project notes is kept in
